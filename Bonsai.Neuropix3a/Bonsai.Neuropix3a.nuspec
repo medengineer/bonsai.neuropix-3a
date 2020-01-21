@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://bitbucket.org/kampff-lab/bonsai.neuropix/raw/77c8107fc2f1d739b4dc447506ddea473d79876e/LICENSE</licenseUrl>
+    <projectUrl>https://bitbucket.org/kampff-lab/bonsai.neuropix</projectUrl>
+    <iconUrl>https://bitbucket.org/horizongir/bonsai/raw/7aacc64dc4647e57362ab310238591dc197fef0d/Resources/Bonsai.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>$author$ © 2017</copyright>
+    <tags>Bonsai Neuropix Ephys</tags>
+  </metadata>
+  <files>
+    <file src="..\Release\*.dll" target="build\net45\bin\x86"/>
+    <file src="..\Externals\libNeuropix\bin\*.dll" target="build\native\bin\x86"/>
+  </files>
+</package>
